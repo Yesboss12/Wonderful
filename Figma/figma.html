@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIGMA DESIGN</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 70%;
+            height: 500px;
+            margin: 30px auto;
+            border: 2px solid green;
+            background-image: linear-gradient(to left, rgb(245, 22, 63), rgb(44, 159, 242))
+        }
+        .box{
+            border: thick solid white;
+            width: 80%;
+            height: 420px;
+            margin: 40px auto;
+            /* display: grid; */
+            /* grid-template-areas: 1fr 2fr; */
+            background-color: white;
+        }
+        .navbar {
+            display: flex;
+            gap: 140px;
+            align-items: center;
+            /* justify-content: center; */
+            width: auto;
+            height: 30px;
+            border-bottom: thin solid white;
+            box-shadow: 0 2px 2px 8px grey;
+            /* align-items: center; */
+            /* justify-content: center; */
+        }
+        .navbar img {
+            width: 25px;
+            height: 25px;
+        }
+        .subnav {
+            display: flex;
+            gap: 20px;
+            margin-left: 40px;
+        }
+        .subnav .img1 {
+            background-image: url(./Image/minimize-outline.png);
+            background-size: 15px;
+            background-repeat: no-repeat;
+            background-position: right;
+            width: 170px;
+            height: 20px;
+            border-radius: 5px;
+            margin-top: 3px;
+        }
+        .imgdiv img{
+            width: 15px;
+            height: 15px;
+            /* margin-left: 30px; */
+            /* display: flex; */
+            /* align-items: center; */
+            /* justify-content: center; */
+            margin-top: 5px;
+        }
+        .subnav .pii img{
+            width: 20px;
+            height: 20px;
+            justify-content: center;
+            align-items: center;
+            margin-left: 70px;
+            margin-right: 10px;
+        }
+        .subnav .pii {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 10px;
+            /* margin-left: 10px; */
+        }
+        .body{
+            display: flex;
+            /* grid-template-areas: 1fr 2fr; */
+        }
+        .left {
+            width: 70px;
+            height: 350px;
+            border: 2px solid black;
+            border-radius: 10px;
+            margin-top: 18px;
+            margin-left: 10px;
+            display: flex;
+            gap: 10px;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 5px;
+        }
+        .left img {
+            width: 35px;
+            /* height: 35px; */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+        .right img {
+           width: 600px;
+           height: 90px;
+           margin-left: 10px;
+           margin-top: 20px;
+        }
+        .bat {
+            display: flex;
+            gap: 120px;
+            /* justify-content: left; */
+            margin-left: 15px;
+        }
+        .bat p {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 11px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .right .new-img img {
+            /* display: flex; */
+            /* flex-direction: row; */
+            /* gap: 30px; */
+            width: 120px;
+            height: 70px;
+        }
+        .flash {
+            display: flex;
+            gap: 280px;
+            margin-left: 20px;
+        }
+        .flash p {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 11px;
+            font-weight: bold;
+        }
+        .BP {
+            display: flex;
+            margin-left: 10px;
+            margin-top: -10px;
+            gap: 30px;
+        }
+        .BP img {
+            width: 50px;
+            height: 50px;
+        }
+        .end {
+            display: flex;
+            margin-top: -10px;
+            
+        }
+        .end .endy {
+            background-image: url("Image/Appointment\ \(1\).png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            /* background-position: center; */
+            border: thin solid black;
+            width: 320px;
+            height: 50px;
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="navbar">
+                <img src="./Image/43530c192627327fd8d818b6142c4bc261953048 (1).png" alt="">
+                <div class="subnav">
+                    <input type="search" name="" id="search" class="img1">
+                    <div class="imgdiv">
+                        <img src="./Image/phone-outline.png" alt="">
+                        <img src="./Image/Notification Icon.png" alt="">
+                    </div>
+                    <p class="pii"><img src="./Image/Ellipse 2.png" alt="">Mst. Rumi Aktar</p>
+                </div>
+            </div>
+
+            <div class="body">
+                <div class="left">
+                    <img src="./Image/Frame 2 (1).png" alt="">
+                    <img src="./Image/Frame 3.png" alt="">
+                    <img src="./Image/Frame 4.png" alt="">
+                    <img src="./Image/Frame 5.png" alt="">
+                    <img src="./Image/Frame 6.png" alt="">
+                    <img src="./Image/Frame 7.png" alt="">
+                    <div style="margin-top: 50px; display: flex; flex-direction: column; gap: 10px;">
+                        <img src="./Image/Frame 8.png" alt="">
+                        <img src="./Image/Frame 9.png" alt="">
+                    </div>
+                </div>
+                    <div class="right">
+                        <img src="./Image/Frame 10.png" alt="">
+                        <div class="bat">
+                            <p>Doctors</p>
+                            <p>Patients</p>
+                            <p>Report</p>
+                            <p>Balance</p>
+                        </div>
+                        <div class="new-img">
+                            <img src="./Image/Frame 11.png" alt="" style="margin-right: 0;">
+                            <img src="./Image/Frame 12.png" alt="" style="margin-left: 30px;">
+                            <img src="./Image/Frame 13.png" alt="" style="margin-left: 30px;">
+                            <img src="./Image/Frame 14.png" alt="" style="margin-left: 30px;">
+                            </div>
+                            <div class="flash">
+                                <p>Hopsital Overview</p>
+                                <p>Gender</p>
+                            </div>
+
+                            <div class="BP">
+                                <img src="./Image/Frame 16.png" alt="">
+                                <img src="./Image/Frame 17.png" alt="">
+                                <img src="./Image/Frame 18.png" alt="">
+                                <img src="./Image/Frame 19.png" alt="">
+                            </div>
+                            <div class="end">
+                                <div class="endy"></div>
+  
+                                <img src="./Image/Gender (1).png" alt="" style="width: 180px; height: 120px; margin-top: -45px; margin-left: 40px;">
+                                </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
